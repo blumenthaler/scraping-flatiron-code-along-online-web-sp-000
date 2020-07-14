@@ -7,7 +7,7 @@ class Scraper
   
   
   def get_page
-  
+   # uses Nokogiri and open-uri to grab the entire HTML document from the web page
   end
   
   def print_courses
