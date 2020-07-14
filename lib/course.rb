@@ -11,6 +11,10 @@ class Course
     @@all
   end
   
+  def self.reset_call
+    @@all.clear
+  end
+  
   
 end
 
