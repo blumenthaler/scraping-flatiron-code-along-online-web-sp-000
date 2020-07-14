@@ -10,6 +10,14 @@ class Scraper
    # uses Nokogiri and open-uri to grab the entire HTML document from the web page
   end
   
+  def get_courses
+    
+  end
+  
+  def make_courses
+    
+  end
+  
   def print_courses
     self.make_courses
     Course.all.each do |course|
